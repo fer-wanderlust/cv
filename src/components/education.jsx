@@ -23,9 +23,9 @@ export default class Education extends Component {
                       <div className="timeline-label">
                         <h2> Licenciatura en Ciencias de la Computación
                           <span> March 2009 - December 2016 </span>
-                          <h4> Universidad de Buenos Aires </h4>
+                          <h4> Universidad de Buenos Aires <span> Buenos Aires, Argentina</span> </h4>
                         </h2>
-                        <p> Equivalent to Bs + Ms in Computer Science Degree. Courses  completed.  Thesis  remaining. </p>
+                        <p> Equivalent to Bs + Ms in Computer Science. Courses  completed.  Thesis  remaining. </p>
                       </div>
                     </div>
                   </article>
@@ -37,7 +37,7 @@ export default class Education extends Component {
                       <div className="timeline-label">
                         <h2> Analista en Ciencias de la Computación
                           <span> March 2009 - July 2015 </span>
-                          <h3> Universidad de Buenos Aires </h3>
+                          <h4> Universidad de Buenos Aires  <span> Buenos Aires, Argentina</span> </h4>
                         </h2>
                         <p> Equivalent to Bachelor in Computer Science. </p>
                       </div>

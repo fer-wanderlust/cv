@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+
 
 export default class Sidebar extends Component {
   render() {
@@ -9,6 +10,7 @@ export default class Sidebar extends Component {
           <aside id="colorlib-aside" className="border js-fullheight">
             <div className="text-center">
               <div className="author-img" style={{backgroundImage: 'url(images/about.jpg)'}} />
+
               <h1 id="colorlib-logo"><a href="index.html">Fernando Leonel Conde</a></h1>
               <span className="email"><i className="icon-mail"></i> ferconde87@gmail.com</span>
             </div>
@@ -21,7 +23,7 @@ export default class Sidebar extends Component {
                   {/* <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li> */}
                   <li><a href="#workexperience" data-nav-section="workexperience">Work Experience</a></li>
                   <li><a href="#education" data-nav-section="education">Education</a></li>
-                  <li><a href="#" data-nav-section="projects">Projects</a></li>
+                  {/* <li><a href="#" data-nav-section="projects">Projects</a></li> */}
                 </ul>
               </div>
             </nav>
