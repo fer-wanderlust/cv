@@ -7,7 +7,7 @@ import About from "./components/about";
 import Education from "./components/education";
 import WorkExperience from './components/workexperience';
 import Projects from './components/projects';
-// import Certifications from './components/certifications';
+import Certifications from './components/certifications';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
                   <WorkExperience/>
                   <Education/>
                   <Projects/>
-                  {/* <Certifications/> */}
+                  <Certifications/>
               </div>
           </div>
       </div>
